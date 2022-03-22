@@ -15,7 +15,11 @@ const server = http.createServer((req,res)=>{
     res.end () 
 })
 
-server.listen(5000)
+// call back for setting up the server
+server.listen(5000, () => {
+    console.log('Server listening to port 5000');
+})
+
 
 
 // uses of npm 

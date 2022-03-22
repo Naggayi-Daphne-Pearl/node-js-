@@ -15,3 +15,7 @@ const items = [1, [2 [3, [4]]]]
 const newItems = _.flattenDeep(items)
 console.log(newItems)
 console.log('hello daphne');
+
+// nodemon is a command line interface utility 
+// it will watch the system for any file changes in the directory 
+// automatically change your application process when code changes 
